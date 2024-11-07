@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                 <h3>Which operating system was created by Linus Torvalds?</h3>
+                    <p id="status" class="status"></p>   
+
+                <button class="js-incorrect-answer">Unix</button>
+                <button id="correct">Linux</button>
+                <button class="js-incorrect-answer">Windows</button>
+                <button class="js-incorrect-answer">MacOS</button>
+                <button class="js-incorrect-answer">TempleOS</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <p id="status2" class="status"></p>
+                <h3>What is the capital of Turkey?</h3>
+                <!-- TODO: Add free response question here -->
+                <input placeholder="enter your answer here" 
+                    type="text"
+                    class="input-style"
+                    id="input"
+                    autocomplete="off"
+                    >
+                <button id="submit-button"
+                    onclick="
+                        checkAnswer();
+                    "    
+                >submit</button>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
