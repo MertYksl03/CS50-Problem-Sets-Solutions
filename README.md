@@ -31,7 +31,7 @@ Each directory contains my solution files, including source code, comments.
 To run the solutions locally:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/cs50-solutions.git
+   git clone https://github.com/MertYksl03/CS50-Problem-Sets-Solutions.git
 
 2. Navigate to the respective directory for a problem set.
 3. Now you have my resolution to that problem set.
