@@ -35,5 +35,5 @@ To run the solutions locally:
 
 2. Navigate to the respective directory for a problem set.
 3. Now you have my resolution to that problem set.
-# #🎓 License
+# 🎓 License
 This repository is for educational purposes and contains my personal solutions to CS50 problem sets. All content is intended for learning and sharing.
